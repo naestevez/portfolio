@@ -1,0 +1,123 @@
+body {
+  background: #fff url('https://images.unsplash.com/photo-1464815564326-75eac871fb92?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c928672f9a08eb3a9c560020675331fa') no-repeat fixed center;
+  background-size: cover;
+}
+
+.overflow {
+  overflow: scroll;
+}
+
+#menu-toggle {
+  border: 2px solid black;
+  background-color: #fff !important;
+  display: block;
+  float: right;
+}
+
+
+.sidebar-brand {
+  padding-bottom: 500px;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.sidebar-brand a h1 {
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.sidebar-nav li {
+  margin-top: 10px;
+}
+
+.sidebar-nav li a {
+  color: #fff;
+  font-size: 2em;
+  padding: 20px 0;
+  letter-spacing: 5px;
+
+}
+
+.sidebar-nav {
+  text-align: center;
+}
+
+.sidebar-nav li {
+  color: #fff !important;
+}
+
+#sidebar-wrapper {
+  /*background: #000 url('http://img05.deviantart.net/da80/i/2015/122/1/8/fredrikstad_gamlebyen_old_brick_wall_texture_1_by_kvaale-d8ryci8.jpg') no-repeat fixed center;*/
+  background-color: rgba(0, 0, 0, 0.7);
+  background-position: center;
+  background-size: 100% auto;
+}
+
+#self-portrait {
+  position: relative;
+  left: 25px;
+}
+
+.section {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid black;
+  margin-top: 5%;
+  border-radius: 5px 50px;
+  color: white;
+  height: 400px;
+  text-align: right;
+  padding: 40px;
+}
+
+#first-section {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid black;
+  margin-top: 30%;
+  border-radius: 5px 50px;
+  color: white;
+  height: 400px;
+  text-align: right;
+  padding: 40px;
+}
+
+.headings {
+  font-size: 3em;
+}
+
+#heart-graffiti {
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  overflow: hidden;
+  border: 3px dashed white;
+}
+
+#contact ul {
+  margin: auto;
+}
+
+#contact ul li {
+  text-decoration: none;
+  display: inline;
+  font-size: 2em;
+  color: #fff !important;
+  padding: 60px 80px;
+}
+
+#footer {
+  background-color: #000;
+  color: #fff;
+  margin-top: 5%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#footer p {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}

@@ -1,11 +1,147 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio Site</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link href="simple-sidebar.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
+
   <body>
-    <h1>Alejandra's Portfolio</h1>
-    <p>Hire me to sleep for 24 hours</p>
-  </body>
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        <h1>Product <br>of <br>Miami</h1>
+                    </a>
+                    <div style="position: relative; left: 0; top: 0;">
+                      <img src="images/orange_splash.png" width="700" alt="frame" style="position: relative; top: 0; left: 0;" class="img-responsive"/>
+                      <img src="images/_DSP2467.jpg" alt="self-portrait" style="position: absolute; top: 65px; left: 50px;" width="150" height="auto" class="img-circle img-responsive" id="self-portrait" />
+                    </div>
+                </li>
+                <li>
+                    <a href="#first-section">about</a>
+                </li>
+                <li>
+                    <a href="#latest-work">latest work</a>
+                </li>
+                <li>
+                    <a href="#testimonials">testimonials</a>
+                </li>
+                <li>
+                    <a href="#footer">contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+
+                <div class="row">
+                  <div class="col-lg-12">
+                      <a href="#menu-toggle" class="btn" id="menu-toggle" align="right"><img src="images/hamburger.png" alt="hamburger-icon" width="20"/></a>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-7 about overflow" id="first-section">
+                    <h1 class="headings">about</h1>
+                    <p>Venmo semiotics tote bag, gentrify bespoke humblebrag messenger bag roof party occupy. Knausgaard helvetica 3 wolf moon, vegan fingerstache tousled meggings PBR&B swag pabst scenester everyday carry iPhone. Franzen scenester kale chips messenger bag, kickstarter pug yr vice celiac flexitarian hella pitchfork sustainable dreamcatcher vinyl. Hoodie chillwave forage ramps occupy, heirloom try-hard chia vinyl craft beer jean shorts shabby chic etsy fixie distillery. Skateboard semiotics PBR&B poutine viral, pug cardigan yuccie pour-over. Plaid scenester fap offal, chartreuse echo park brooklyn direct trade mlkshk schlitz pop-up cray twee. Selfies lomo before they sold out chicharrones, fanny pack ethical food truck scenester</p>
+                  </div>
+                  <div class="col-sm-1">
+                  </div>
+                  <div class="col-sm-4" id="first-section">
+                    <img src="https://images.unsplash.com/photo-1465805466987-1a52c4976a92?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e99df5863bcf24cd92a94f73a0cd5337" alt="heart graffiti" id="heart-graffiti" />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12 col-md-1"></div>
+
+                  <div class="col-sm-12 col-md-5 section">
+                    <h1 class="headings">professional skills</h1>
+                  </div>
+
+                  <div class="col-sm-12 col-md-1"></div>
+
+                  <div class="col-sm-12 col-md-5 section">
+                    <h1 class="headings">experience</h1>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12 section" id="latest-work">
+                    <h1 class="headings">latest work</h1>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-4 section">
+                    <img src="https://c2.staticflickr.com/4/3475/3266776098_1f08960b83_b.jpg" alt="random graffiti" id="heart-graffiti" />
+                  </div>
+                  <div class="col-sm-1">
+                  </div>
+                  <div class="col-sm-7 section overflow" id="testimonials">
+                    <h1 class="headings">testimonials</h1>
+                    <p>Venmo semiotics tote bag, gentrify bespoke humblebrag messenger bag roof party occupy. Knausgaard helvetica 3 wolf moon, vegan fingerstache tousled meggings PBR&B swag pabst scenester everyday carry iPhone. Franzen scenester kale chips messenger bag, kickstarter pug yr vice celiac flexitarian hella pitchfork sustainable dreamcatcher vinyl. Hoodie chillwave forage ramps occupy, heirloom try-hard chia vinyl craft beer jean shorts shabby chic etsy fixie distillery. Skateboard semiotics PBR&B poutine viral, pug cardigan yuccie pour-over. Plaid scenester fap offal, chartreuse echo park brooklyn direct trade mlkshk schlitz pop-up cray twee. Selfies lomo before they sold out chicharrones, fanny pack ethical food truck scenester</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12 section" id="contact">
+                    <h1 class="headings">social media</h1>
+                    <ul>
+                      <li><a href="https://github.com/nestevez7">github</a></li>
+                      <li><a href="https://www.linkedin.com/in/naestevez">linkedIn</a></li>
+                      <li><a href="https://twitter.com/Miami_Product">twitter</a></li>
+                      <li><a href="http://codepen.io/nestevez7/">codepen</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12" id="footer">
+                    <p>Nayeli Alejandra Estevez ( Product of Miami ) &copy; 2016</p>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+
 </html>
