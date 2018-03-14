@@ -1,75 +1,13 @@
 body {
-  background: #fff url('https://images.unsplash.com/photo-1464815564326-75eac871fb92?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c928672f9a08eb3a9c560020675331fa') no-repeat fixed center;
+  background: #fff url('images/graffiti-bg.jpg') no-repeat fixed center 50%;
+  background-color: #000;
   background-size: cover;
   font-family: sans-serif;
   letter-spacing: 2px;
 }
 
-h1 {
-  font-family: "Arial Black", Gadget, sans-serif;
-}
-
 .no-bull {
   list-style: none;
-}
-
-.overflow {
-  overflow: scroll;
-}
-
-#menu-toggle {
-  /*border: 2px solid black;*/
-  background-color: rgba(0, 0, 0, 0.7);
-  display: block;
-  float: right;
-}
-
-
-.sidebar-brand {
-  padding-bottom: 500px;
-  font-weight: bold;
-  color: #fff !important;
-}
-
-.sidebar-brand a h1 {
-  color: #fff;
-  letter-spacing: 5px;
-}
-
-.sidebar-nav li {
-  margin-top: 10px;
-}
-
-.sidebar-nav li a {
-  color: #fff;
-  font-size: 1.5em;
-  padding: 20px 0;
-  letter-spacing: 5px;
-
-}
-
-.sidebar-nav {
-  text-align: center;
-}
-
-.sidebar-nav li {
-  color: #fff !important;
-}
-
-#sidebar-wrapper {
-  /*background: #000 url('http://img05.deviantart.net/da80/i/2015/122/1/8/fredrikstad_gamlebyen_old_brick_wall_texture_1_by_kvaale-d8ryci8.jpg') no-repeat fixed center;*/
-  background-color: rgba(0, 0, 0, 0.7);
-  background-position: center;
-  background-size: 100% auto;
-}
-
-#self-portrait {
-  position: relative;
-  left: 25px;
-}
-
-.justify {
-  text-align: justify;
 }
 
 .section {
@@ -83,67 +21,65 @@ h1 {
   padding: 40px;
 }
 
-.section h1 {
+.headings {
   margin-top: 0;
   margin-bottom: 30px;
+  font-size: 3em;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 
-#first-section {
+
+/** About **/
+
+#about-section {
   background-color: rgba(0, 0, 0, 0.7);
   border: 1px solid black;
-  margin-top: 20%;
+  margin-top: 800px;
   border-radius: 5px 50px;
   color: white;
-  height: 400px;
-  text-align: right;
+  height: auto;
+  text-align: left;
   padding: 40px;
 }
 
-.headings {
-  font-size: 3em;
-}
-
-#heart-graffiti {
-  display: block;
-  position: relative;
-  top: 20px;
-  left: 15px;
-  width: 90%;
-  height: 90%;
-  object-fit: cover;
-  overflow: hidden;
-  border: 3px dashed white;
-}
-
-#social {
-  text-align: center;
-  position: relative;
-  right: 10px;
-}
-
-#circle {
-  border: 2px solid white;
-}
-
-#social li {
-  display: inline;
-  padding: 0 20px;
-}
-
-#social_media ul {
-  margin: auto;
-}
+/** Professional Skills **/
+/** Education **/
+/** Latest Work **/
+/** Testimonials **/
+/** Footer **/
 
 #footer {
   background-color: #000;
   color: #fff;
   margin-top: 5%;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding: 1em;
+}
+
+#footer .col-md-6 {
+  padding: 0;
 }
 
 #footer p {
   font-size: 1em;
   text-transform: uppercase;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
+  margin: auto 0;
+}
+
+#footer #social {
+  text-align: right;
+  position: relative;
+  margin: auto 0;
+}
+
+#footer #social li {
+  display: inline;
+  padding: 0 10px;
+}
+
+#circle {
+  border: 2px solid white;
+  border-radius: 50% / 50%;
+  width: 40px;
+  height: 40px;
 }

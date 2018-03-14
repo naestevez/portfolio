@@ -6,178 +6,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio Site</title>
-    <!-- Latest compiled and minified CSS -->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <link href="simple-sidebar.css" rel="stylesheet">
+    <!-- Latest compiled and minified CDN CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="index.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <script src="hello.js"></script>
-
+    <script src="index.js"></script>
   </head>
 
   <body>
-    <div id="wrapper">
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        <h1>Product <br>of <br>Miami</h1>
-                    </a>
-                    <div style="position: relative; left: 0; top: 0;">
-                      <img src="images/orange_splash.png" width="700" alt="frame" style="position: relative; top: 0; left: 0;" class="img-responsive"/>
-                      <img src="images/_DSP2467.jpg" alt="self-portrait" style="position: absolute; top: 65px; left: 50px;" width="150" height="auto" class="img-circle img-responsive" id="self-portrait" />
-                    </div>
-                </li>
-                <li>
-                    <a href="#first-section">about</a>
-                </li>
-                <li>
-                    <a href="#latest-work">latest work</a>
-                </li>
-                <li>
-                    <a href="#testimonials">testimonials</a>
-                </li>
-                <li>
-                    <a href="#footer">social media</a>
-                </li>
+    <main>
+
+      <div class="container">
+        <div class="row" id="about-section">
+          <div class="col-sm-12 col-md-6">
+            <h1 class="headings">about</h1>
+            <p class="lead">Hi! I'm Alex. Born and raised in Miami. I have a thing for untying knots, solving sudoku puzzles and philosophical conversations. Along with my unquenchable thirst for new music, I have a huge appetite for studying life and learning new skills. In my early years after college, my communications and marketing skills helped me to understand people and culture. Later on, after visiting several national parks in the Pacific Northwest, I became inspired by forests and how technology was being used to monitor and protect them. Three years of independent study, a coding bootcamp experience, and one and a half years in a forestry masters program brought me to realize that I love GIS and programming and I would  to create custom GIS applications. More can be found on my <a href="#">GIS portfolio</a>. Otherwise, feel free to look at my other coding projects here as well.</p>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <img src="images/estevez-profile-img.jpg" class="img-fluid" alt="profile pic" width="400px" height="auto">
+          </div>
+        </div>
+
+        <div class="row section">
+          <div class="col-sm-12 col-md-6">
+            <h1 class="headings">professional skills</h1>
+            <ul class="no-bull">
+              <li>HTML | CSS</li>
+              <li>jQuery | Javascript</li>
+              <li>Ruby | Rails</li>
+              <li>Python | GDAL | Shapely | Mapnik</li>
+              <li>Git | Github</li>
+              <li>Wordpress</li>
+              <li>Photoshop | Illustrator</li>
+              <li>Atom | Sublime Text</li>
+              <li>Google Adwords | Analytics</li>
+              <li>Trello | Basecamp</li>
+              <li>ArcGIS | Idrisi | QGIS</li>
             </ul>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h1 class="headings">education</h1>
+            <ul class="no-bull">
+              <li>University of Padova | University of Lisbon<br>
+              MS in Mediterranean Forestry and Natural Resource Management<br>
+              2-year Erasmus Mundus joint master program</li>
+              <hr>
+              <li>Wyncode Academy<br>
+              Full Stack 3-month program</li>
+              <hr>
+              <li>Skillcrush - In Progress<br>
+              Ruby on Rails blueprint</li>
+              <hr>
+              <li>Intro to Javascript<br>
+              Girl Develop It 5-week course</li>
+              <hr>
+              <li>Florida Atlantic University - 2010<br>
+              BA in Intercultural and Organizational Communications<br>
+              BA in Interdisciplinary Studies in Arts and Humanities</li>
+            </ul>
+          </div>
         </div>
-        <!-- /#sidebar-wrapper -->
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
 
-                <div class="row">
-                  <div class="col-lg-12">
-                      <a href="#menu-toggle" class="btn" id="menu-toggle" align="right"><img src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/06_menu_stack-512.png" alt="hamburger-icon" width="20"/></a>
-                  </div>
-                </div>
+        <div class="row">
+          <div class="col-sm-12 section" id="latest-work">
+            <h1 class="headings">latest work</h1>
+          </div>
+        </div>
 
-                <div class="row">
-                  <div class="col-sm-7 overflow" id="first-section">
-                    <h1 class="headings">about</h1>
-                    <p class="justify">Hi! I'm Alex and I'm a Wyncode graduate about to take on the world! I have a thing for untying knots, solving hard sudoku puzzles, and creating awesome playlists. Born and raised in Miami, It's no wonder I love music, art, culture and languages. In fact, I know roughly four, thanks to those foreign movies on Bravo. I love to develop more apps that improve communications and connect youth of diverse backgrounds to improve their language or intercultural skills.</p>
-                    <input type="text" name="name" value="" onChange="onChangeHandler(this);">
-                    <a href="javascript:onLinkClicked(this);">Click me!</a>
-                  </div>
-                  <div class="col-sm-1">
-                  </div>
-                  <div class="col-sm-4" id="first-section">
-                    <img src="https://images.unsplash.com/photo-1465805466987-1a52c4976a92?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e99df5863bcf24cd92a94f73a0cd5337" alt="heart graffiti" id="heart-graffiti" />
-                  </div>
-                </div>
+        <div class="row">
+          <div class="col-sm-12 section" id="testimonials">
+            <h1 class="headings">testimonials</h1>
+            <p class="lead">Venmo semiotics tote bag, gentrify bespoke humblebrag messenger bag roof party occupy. Knausgaard helvetica 3 wolf moon, vegan fingerstache tousled meggings PBR&B swag pabst scenester everyday carry iPhone. Franzen scenester kale chips messenger bag, kickstarter pug yr vice celiac flexitarian hella pitchfork sustainable dreamcatcher vinyl. Hoodie chillwave forage ramps occupy, heirloom try-hard chia vinyl craft beer jean shorts shabby chic etsy fixie distillery. Skateboard semiotics PBR&B poutine viral, pug cardigan yuccie pour-over. Plaid scenester fap offal, chartreuse echo park brooklyn direct trade mlkshk schlitz pop-up cray twee. Selfies lomo before they sold out chicharrones, fanny pack ethical food truck scenester</p>
+          </div>
+        </div>
+      </div><!-- end of container -->
 
-                <div class="row">
-                  <div class="col-sm-12 col-md-1"></div>
+    </main>
 
-                  <div class="col-sm-12 col-md-5 section">
-                    <h1 class="headings">professional skills</h1>
-                    <ul class="no-bull">
-                      <li>HTML &amp; CSS</li>
-                      <li>jQuery &amp; Javascript</li>
-                      <li>Ruby &amp; Python</li>
-                      <li>Git &amp; Github</li>
-                      <li>Wordpress</li>
+    <footer>
 
-                      <li>Photoshop</li>
-                      <li>Dreamweaver</li>
-                      <li>Google Adwords &amp; Analytics</li>
-                      <li>Trello, Asana, Basecamp</li>
-                      <li>Command Line</li>
-                    </ul>
-                  </div>
-
-                  <div class="col-sm-12 col-md-1"></div>
-
-                  <div class="col-sm-12 col-md-5 section">
-                    <h1 class="headings">education</h1>
-                    <ul class="no-bull overflow">
-                      <li>Wyncode Academy - In Progress<br>
-                      Full Stack 3-month program</li>
-                      <hr>
-                      <li>Free Code Camp - In Progress<br>
-                      Full stack certification</li>
-                      <hr>
-                      <li>Skillcrush - In Progress<br>
-                      Ruby on Rails blueprint</li>
-                      <hr>
-                      <li>Intro to Javascript<br>
-                      Girl Develop It 5-week course</li>
-                      <hr>
-                      <li>Florida Atlantic University - 2010<br>
-                      BA in Intercultural and Organizational Communications<br>
-                      BA in Interdisciplinary Studies in Arts and Humanities</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-sm-12 section" id="latest-work">
-                    <h1 class="headings">latest work</h1>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-sm-4 section">
-                    <img src="https://c2.staticflickr.com/4/3475/3266776098_1f08960b83_b.jpg" alt="random graffiti" id="heart-graffiti" />
-                  </div>
-                  <div class="col-sm-1">
-                  </div>
-                  <div class="col-sm-7 section overflow" id="testimonials">
-                    <h1 class="headings">testimonials</h1>
-                    <p class="justify">Venmo semiotics tote bag, gentrify bespoke humblebrag messenger bag roof party occupy. Knausgaard helvetica 3 wolf moon, vegan fingerstache tousled meggings PBR&B swag pabst scenester everyday carry iPhone. Franzen scenester kale chips messenger bag, kickstarter pug yr vice celiac flexitarian hella pitchfork sustainable dreamcatcher vinyl. Hoodie chillwave forage ramps occupy, heirloom try-hard chia vinyl craft beer jean shorts shabby chic etsy fixie distillery. Skateboard semiotics PBR&B poutine viral, pug cardigan yuccie pour-over. Plaid scenester fap offal, chartreuse echo park brooklyn direct trade mlkshk schlitz pop-up cray twee. Selfies lomo before they sold out chicharrones, fanny pack ethical food truck scenester</p>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-sm-12 section" id="social_media">
-                    <h1 class="headings">social media</h1>
-                    <ul id="social">
-                      <li><a href="http://codepen.io/nestevez7/"><img src="images/codepen.png" alt="codepen" width="150" id="circle" /></a></li>
-                      <li><a href="https://github.com/nestevez7"><img src="images/github_white.png" alt="github" width="150" /></a></li>
-                      <li><a href="https://www.linkedin.com/in/naestevez"><img src="images/linkedin-3-512.png" alt="linkedin" width="150" /></a></li>
-                      <li><a href="https://twitter.com/Miami_Product"><img src="images/twitter-4-512.gif" alt="twitter" width="150" /></a></li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-sm-12" id="footer">
-                    <p>Nayeli Alejandra Estevez ( Product of Miami ) &copy; 2016</p>
-                  </div>
-                </div>
-
+      <div class="container-fluid">
+        <div class="row" id="footer">
+          <div class="col-sm-12">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <p>Nayeli Alejandra Estevez &copy; 2018</p>
+              </div>
+              <div class="col-md-6">
+                <ul id="social">
+                  <li><a href="http://codepen.io/nestevez7/"><img id="circle" src="images/codepen.png" alt="codepen" width="40" /></a></li>
+                  <li><a href="https://github.com/nestevez7"><img src="images/github_white.png" alt="github" width="40" /></a></li>
+                  <li><a href="https://www.linkedin.com/in/naestevez"><img src="images/linkedin-3-512.png" alt="linkedin" width="40" /></a></li>
+                  <li><a href="https://twitter.com/naestevez"><img src="images/twitter-4-512.gif" alt="twitter" width="40" /></a></li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- /#page-content-wrapper -->
+      </div><!-- end of footer container -->
 
-    </div>
-    <!-- /#wrapper -->
+    </footer>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
